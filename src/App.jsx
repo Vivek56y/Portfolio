@@ -78,6 +78,14 @@ const projects = [
     live: 'https://amazon-clone-jade-six.vercel.app',
     github: 'https://github.com/Vivek56y/Amazon-clone',
   },
+  {
+  name: 'Rock-Paper-Scissors Game',
+  description:
+    'Interactive browser-based Rock-Paper-Scissors game built using JavaScript with randomized computer logic, real-time score tracking, and dynamic result updates for engaging gameplay.',
+  tech: ['HTML', 'CSS', 'JavaScript'],
+  live: 'https://rock-paper-game-fd6a.vercel.app/',
+  github: 'https://github.com/Vivek56y/rockpaperscesiorgame',
+},
 ];
 const App = () => {
   const scrollToSection = (id) => {
