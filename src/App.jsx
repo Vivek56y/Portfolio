@@ -38,6 +38,14 @@ const skillsSecondary = [
 
 const projects = [
   {
+  name: 'BusGo – Smart Bus Tracking System',
+  description:
+    'Full-stack MERN bus tracking platform with real-time location updates, secure authentication, and role-based access. Users can search routes and track buses, while admins can manage buses and routes through a dedicated dashboard.',
+  tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'Tailwind CSS'],
+  live: 'https://bus-tracking-mern.vercel.app',
+  github: 'https://github.com/yourusername/busgo',
+}
+  {
     name: 'Weather App',
     description:
       'Responsive weather application that fetches real-time data from the OpenWeatherMap API. Displays temperature, humidity and conditions with error handling for invalid inputs.',
