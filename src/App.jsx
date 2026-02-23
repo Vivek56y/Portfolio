@@ -38,13 +38,14 @@ const skillsSecondary = [
 
 const projects = [
   {
-  name: 'BusGo – Smart Bus Tracking System',
-  description:
-    'Full-stack MERN bus tracking platform with real-time location updates, secure authentication, and role-based access. Users can search routes and track buses, while admins can manage buses and routes through a dedicated dashboard.',
-  tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'Tailwind CSS'],
-  live: 'https://bus-tracking-mern.vercel.app',
-  github: 'https://github.com/Vivek56y/Bus-Tracking-Mern',
-}
+    name: 'BusGo – Smart Bus Tracking System',
+    description:
+      'Full-stack MERN bus tracking platform with real-time location updates, secure authentication, and role-based access. Users can search routes and track buses, while admins can manage buses and routes through a dedicated dashboard.',
+    tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'Tailwind CSS'],
+    live: 'https://bus-tracking-mern.vercel.app',
+    github: 'https://github.com/Vivek56y/Bus-Tracking-Mern',
+  }, // ✅ comma added here
+
   {
     name: 'Weather App',
     description:
@@ -66,7 +67,7 @@ const projects = [
     description:
       'Front-end replica of the Amazon home page with focus on layout, product sections and responsive styling.',
     tech: ['HTML', 'CSS'],
-    live: 'amazon-clone-jade-six.vercel.app',
+    live: 'https://amazon-clone-jade-six.vercel.app',
     github: 'https://github.com/Vivek56y/Amazon-clone',
   },
   {
@@ -77,8 +78,7 @@ const projects = [
     live: '#',
     github: 'https://github.com/Vivek56y/rockpaperscesiorgame',
   },
-]
-
+];
 const App = () => {
   const scrollToSection = (id) => {
     const el = document.getElementById(id)
