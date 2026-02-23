@@ -42,7 +42,7 @@ const projects = [
     description:
       'Responsive weather application that fetches real-time data from the OpenWeatherMap API. Displays temperature, humidity and conditions with error handling for invalid inputs.',
     tech: ['HTML', 'CSS', 'JavaScript', 'OpenWeatherMap API'],
-    live: '#',
+    live: 'https://wheather-mocha.vercel.app/',
     github: 'https://github.com/Vivek56y/WHEATHER',
   },
   {
@@ -50,7 +50,7 @@ const projects = [
     description:
       'Personal portfolio website to showcase skills, education and projects, built with clean layout and responsive design.',
     tech: ['HTML', 'CSS', 'JavaScript'],
-    live: '#',
+    live: 'https://vivekyadav-swart.vercel.app/',
     github: 'https://github.com/Vivek56y/portpolio',
   },
   {
@@ -58,7 +58,7 @@ const projects = [
     description:
       'Front-end replica of the Amazon home page with focus on layout, product sections and responsive styling.',
     tech: ['HTML', 'CSS'],
-    live: '#',
+    live: 'amazon-clone-jade-six.vercel.app',
     github: 'https://github.com/Vivek56y/Amazon-clone',
   },
   {
