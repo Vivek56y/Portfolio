@@ -63,20 +63,20 @@ const projects = [
     github: 'https://github.com/Vivek56y/portpolio',
   },
   {
+  name: 'Currency Converter',
+  description:
+    'Real-time currency converter application that fetches exchange rates from an API and allows users to convert between multiple international currencies with a clean and responsive UI.',
+  tech: ['HTML', 'CSS', 'JavaScript', 'Exchange Rate API'],
+  live: 'https://currency-converter-one-rust.vercel.app/',
+  github: 'https://github.com/Vivek56y/currency-converter', // 👈 apna exact repo name yaha daalo
+},
+  {
     name: 'Amazon Clone (UI)',
     description:
       'Front-end replica of the Amazon home page with focus on layout, product sections and responsive styling.',
     tech: ['HTML', 'CSS'],
     live: 'https://amazon-clone-jade-six.vercel.app',
     github: 'https://github.com/Vivek56y/Amazon-clone',
-  },
-  {
-    name: 'Rock-Paper-Scissors Game',
-    description:
-      'Interactive browser-based Rock-Paper-Scissors game with real-time score logic and simple animations.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    live: '#',
-    github: 'https://github.com/Vivek56y/rockpaperscesiorgame',
   },
 ];
 const App = () => {
