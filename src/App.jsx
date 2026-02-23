@@ -43,7 +43,7 @@ const projects = [
     'Full-stack MERN bus tracking platform with real-time location updates, secure authentication, and role-based access. Users can search routes and track buses, while admins can manage buses and routes through a dedicated dashboard.',
   tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'Tailwind CSS'],
   live: 'https://bus-tracking-mern.vercel.app',
-  github: 'https://github.com/yourusername/busgo',
+  github: 'https://github.com/Vivek56y/Bus-Tracking-Mern',
 }
   {
     name: 'Weather App',
